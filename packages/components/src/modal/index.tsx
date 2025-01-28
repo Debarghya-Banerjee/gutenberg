@@ -358,6 +358,7 @@ function UnforwardedModal(
 						) }
 
 						<div
+							className="components-modal__body"
 							ref={ useMergeRefs( [
 								childrenContainerRef,
 								focusOnMount === 'firstContentElement'
